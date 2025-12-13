@@ -1,0 +1,50 @@
+.python-version
+nsynth-test.jsonwav.tar.gz
+
+# Python
+.python-version
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Data files (large audio files)
+data/
+nsynth-test.jsonwav.tar.gz
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Backup files
+backup_old_files/
+*.bak
+*~
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Outputs
+denoised_*.wav
+classical_*.wav
+presentation_demo/
+*.png
+comparison.png
+spectrogram_comparison.png
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Virtual environments
+venv/
+env/
+ENV/
