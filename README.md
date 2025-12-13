@@ -1,5 +1,5 @@
 ### DISCLAIMER FOR OUR FINAL PRESENTATION 
-I, Khrystyna Korets, broke our previous git repository pushing 23 GB of data there, it was really painfull for other teammates to perform pull & push so we decided to create new one <br>
+I, Khrystyna Korets, broke our previous git repository pushing 23 GB of data there, it was really painfull for other teammates to perform pull & push so we decided to create new one cause I didn't knew how to slve that, but it is a lesson that I learned :) <br>
 Providing link to previous https://github.com/hkorets/tone-shift
 
 ### Prerequirments
