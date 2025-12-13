@@ -1,3 +1,7 @@
+### DISCLAIMER FOR OUR FINAL PRESENTATION 
+I, Khrystyna Korets, broke our previous git repository pushing 23 GB of data there, it was really painfull for other teammates to perform pull & push so we decided to create new one <br>
+Providing link to previous https://github.com/hkorets/tone-shift
+
 ### Prerequirments
 ```project.toml```
 
