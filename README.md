@@ -19,3 +19,10 @@ Providing link to previous https://github.com/hkorets/tone-shift
 
 #### Synth: <br>
 ```synth/fifo.py``` - ready to use functions for synthesis
+
+#### Article: <br>
+**[Noise-Robust Timbre Transfer for Accessible Music Production](https://www.researchgate.net/publication/398672088_Noise-Robust_Timbre_Transfer_for_Accessible_Music_Production)**
+
+*Khrystyna Korets, Oleksandra Ostafiichuk, Solomiia Shopiak*
+
+Published on ResearchGate | December 2024
