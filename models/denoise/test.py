@@ -150,33 +150,18 @@ def denoise_audio(model, input_path, output_path, device="mps"):
     
     return denoised, sr
 
-def main():
-    print("\n" + "="*70)
-    print(" " * 20 + "AUDIO DENOISER")
-    print("="*70)
+def main():    
+    input_path = "document_5305266375659393036_cut_0_80000.wav"
+    output_path = f"denoised_{os.path.basename(input_path)}"
+    model_path = "models/denoise/checkpoints/best.pt"
     
-    # Parse arguments
-    if len(sys.argv) < 2:
-        print("\nUsage:")
-        print("  python test_model.py input.wav [output.wav] [model.pt]")
-        print("\nExamples:")
-        print("  python test_model.py noisy.wav")
-        print("  python test_model.py noisy.wav clean.wav")
-        print("  python test_model.py noisy.wav clean.wav checkpoints/best.pt")
-        return
-    
-    input_path = sys.argv[1]
-    output_path = sys.argv[2] if len(sys.argv) > 2 else f"denoised_{os.path.basename(input_path)}"
-    model_path = sys.argv[3] if len(sys.argv) > 3 else "models/denoise/checkpoints/best.pt"
-    
-    # Check input file exists
     if not os.path.exists(input_path):
-        print(f"\n❌ ERROR: Input file not found: {input_path}")
+        print(f"\nERROR: Input file not found: {input_path}")
         return
     
     # Check model exists
     if not os.path.exists(model_path):
-        print(f"\n❌ ERROR: Model file not found: {model_path}")
+        print(f"\nERROR: Model file not found: {model_path}")
         print("Did you train the model? Run lightweight_training.py first.")
         return
     
